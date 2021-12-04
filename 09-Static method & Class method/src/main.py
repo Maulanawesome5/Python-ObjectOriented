@@ -24,6 +24,7 @@ class Hero:
 
     @classmethod
     def getJumlah3(cls):
+        # Polymorphism
         return cls.__jumlah
 
 
@@ -32,7 +33,6 @@ print("Hero baru telah dibuat. Jumlah : ", Hero.getJumlah2())
 archer = Hero("Archer")
 print("Hero baru telah dibuat. Jumlah : ", archer.getJumlah2())
 caster = Hero("Caster")
-rider = Hero("Rider")
 lancer = Hero("Lancer")
 print("Hero baru telah dibuat. Jumlah : ", Hero.getJumlah3())
 
